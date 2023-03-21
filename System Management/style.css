@@ -1,0 +1,88 @@
+body {
+    background-image: url("/background.jpg");
+    background-size: cover; 
+    margin: 0px;
+}
+.navbar{
+    background-color: darkgreen;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    font-size: medium;
+    list-style: none;
+    margin: 0 40px;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.Orgchart {
+    margin-left: 25%;
+}
+.List {
+    margin-left: 40%;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.mission {
+    border: 1px solid;
+    background-color: greenyellow;
+}
+.vision {
+    border: 1px solid;
+    background-color: greenyellow;
+}
+.objectives {
+    border: 1px solid;
+    background-color: greenyellow;
+}
+.chart {
+    border: 1px solid;
+    background-color: greenyellow;
+}
+.previous {
+    text-align: center;
+}
+.companyprof {
+    text-align: center;
+}
+.profiletext {
+    text-align: center;
+    margin: 50px;
+    font-size: large;
+}
+.missiontext {
+    text-align: center;
+    margin: 30px;
+    
+}
